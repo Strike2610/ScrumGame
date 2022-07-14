@@ -18,7 +18,7 @@ public class Product : MonoBehaviour {
 			sprintObject.GetComponent<Sprint>().Features = sprint.Features;
 			sprintObject.transform.localPosition = new Vector3(
 				0,
-				i * sprintObject.transform.Find("background").localScale.y + 15,
+				i * (sprintObject.transform.Find("Background").localScale.y + 15),
 				0);
 		}
 	}
