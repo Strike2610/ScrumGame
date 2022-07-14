@@ -210,7 +210,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 1000
+  orthographic size: 2000
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -385,8 +385,13 @@ MonoBehaviour:
     Features: 1
   - Value: 2
     Features: 2
-  ProductColor: {r: 1, g: 0, b: 0, a: 1}
+  - Value: 8
+    Features: 1
+  - Value: 2
+    Features: 30
+  productColor: {r: 1, g: 0, b: 0, a: 1}
   sprintPrefab: {fileID: 4896843423014943011, guid: d042e841eafa74646a77fa43f59c66e6, type: 3}
+  productLocation: {x: -1300, y: 600}
 --- !u!4 &1840520531
 Transform:
   m_ObjectHideFlags: 0
